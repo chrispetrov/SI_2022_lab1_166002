@@ -1,1 +1,8 @@
 git clone <remote rep>
+git status
+git add --all
+git commit -a -m "Add 5 items to the shopping list"
+git add --all
+git commit -a -m "Add quantitities to the items"
+git branch branch1
+git branch branch2
