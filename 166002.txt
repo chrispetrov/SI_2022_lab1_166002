@@ -6,3 +6,25 @@ git add --all
 git commit -a -m "Add quantitities to the items"
 git branch branch1
 git branch branch2
+git checkout branch1
+git add -all
+git commit -a -m "Change Quantity of item 5"
+git checkout master
+git status
+git add --all
+git checkout branch2
+git push origin branch1
+git checkout branch2
+git push origin branch2
+git checkout master
+git push origin master
+git checkout branch2
+git add "shopping list.txt"
+git commit -a -m "Modify item 4"
+git reset --soft HEAD^
+git add --all
+git commit -a -m "Modify item 4 and add item 6"
+git checkout master
+git merge branch1
+git add "shopping list.txt"
+git commit
